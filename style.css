@@ -1,0 +1,109 @@
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+body.dark div#number-container > p{
+    border: 1px solid white;
+}
+
+header {
+text-align: center;
+padding-bottom: 10px;
+border-bottom: 1px solid orange;
+background-color: aqua;
+}
+
+h1{
+    font-size: 45pt;
+}
+
+#setup {
+margin-bottom: 15px;
+margin-top: 15px;
+padding-left: 50px;
+padding-right: 50px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 1rem;
+}
+
+button {
+    justify-self: center;
+}
+
+p#timer, p#lives {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+}
+
+#number-container > p {
+    border: 1px solid black;
+    border-radius: 15%;
+    width: 60px;
+    height: 60px;
+    font-size: 40pt;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
+
+.tile {
+    border: 1px solid grey;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle;
+    font-size: 40pt;
+}
+
+p.selected {
+background-color: orange;
+}
+p.incorrect {
+    color: red;
+}
+
+.rightBorder {
+ border-right: 2px solid black;   
+}
+
+.bottomBorder {
+    border-bottom: 2px solid black;
+}
+
+footer {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark .rightBorder {
+    border-right: 2px solid white;   
+   }
+   
+.dark .bottomBorder {
+       border-bottom: 2px solid white;
+   }
